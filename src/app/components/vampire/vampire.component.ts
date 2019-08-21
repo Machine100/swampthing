@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VampireComponent implements OnInit {
 
+  monstername:string = 'Dracula'
+  
   constructor() { }
 
   ngOnInit() {

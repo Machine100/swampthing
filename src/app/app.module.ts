@@ -3,13 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { GhostComponent } from './components/ghost/ghost.component';
-import { VampireComponent } from './vampire/vampire.component';
+import { VampireComponent } from './components/vampire/vampire.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     GhostComponent,
-    VampireComponent
+    VampireComponent,
+    
   ],
   imports: [
     BrowserModule

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GhostComponent implements OnInit {
 
+  monstername:string = 'Casper'
+  
   constructor() { }
 
   ngOnInit() {
